@@ -1,6 +1,6 @@
 # Welcome to the SuperDataScience Community Project!
 
-Welcome to the **** repository! 🎉
+Welcome to the **CardioSentinel: Predicting Heart Attack Risk from Lifestyle and Clinical Data** repository! 🎉
 
 This project is a collaborative initiative brought to you by SuperDataScience, a global learning community focused on data science, machine learning, and AI. Whether you’re starting with Generative AI or looking to deepen your skills with tool-using LLMs, we’re excited to have you on board!
 
@@ -34,11 +34,34 @@ project-name/
 └── README.md                 ← You are here!
 
 ```
+## 🧠 Project Background
+
+Cardiovascular disease remains one of the world’s leading causes of death, claiming millions of lives annually. As a Data Scientist at a global digital health startup, you’ve been tasked with developing a predictive model that helps healthcare professionals identify patients at high risk of heart attacks before symptoms appear.
+
+Your company, CardioSentinel HealthTech, partners with hospitals, fitness platforms, and insurance providers to offer preventive health analytics. Using the Heart Attack Risk Prediction Dataset, your mission is to explore how lifestyle factors (diet, stress, physical activity, sleep), biological indicators (cholesterol, blood pressure, triglycerides, BMI), and medical history contribute to the likelihood of a heart attack.
+
+Your insights will drive the next generation of personalized heart health dashboards, helping physicians take timely preventive action and empowering patients to live longer, healthier lives.
+
+---
+
+## 🎯 Your Mission
+
+As a Data Scientist at CardioSentinel HealthTech, your mission is to build a data-driven system that can predict an individual’s likelihood of suffering a heart attack based on clinical and lifestyle factors.
+You will:
+
+Analyze the dataset to uncover key risk patterns.
+
+Build machine learning models to classify patients as “At Risk” or “Not at Risk”.
+
+Present actionable insights that could guide lifestyle interventions or early medical attention.
 
 ---
 
 ## 🟢 Beginner Track
 
+### 🎯 Goal:
+Use traditional machine learning models (Logistic Regression, Random Forest, XGBoost) to predict **heart attack risk** based on patient attributes.  
+You’ll complete a full ML pipeline — from cleaning and preprocessing data to model evaluation and Streamlit deployment.
 
 
 📌 Get started:  
@@ -50,6 +73,8 @@ project-name/
 
 ## 🔴 Advanced Track
 
+Use **deep learning** to uncover complex, non-linear relationships in cardiovascular risk factors.  
+You’ll design and train neural networks with explainability tools (SHAP, Integrated Gradients) to visualize feature influence on predictions.
 
 
 📌 Get started:  
@@ -60,16 +85,16 @@ project-name/
 ---
 
 ## 📊 Dataset
+**Dataset:** Heart Attack Risk Prediction Dataset  
+**Records:** 8,763 patients across the globe  
+**Features:** Clinical, behavioral, and socioeconomic factors including:
+- Age, cholesterol, blood pressure, BMI, triglycerides  
+- Lifestyle indicators (diet, exercise, stress, sleep)  
+- Medical history (diabetes, family history, smoking)  
+- Location and income attributes  
+- **Target variable:** `Heart Attack Risk (1 = Yes, 0 = No)`
 
----
-
-## 🌍 APIs & Tools
-
-This project relies on live web data via APIs.  
-- **Search APIs**: [Tavily](https://tavily.com/) or [SerpAPI](https://serpapi.com/)  
-- **LLMs**: OpenAI GPT models (or any provider supporting function/tool calling)  
-- **Deployment**: [Streamlit](https://streamlit.io/) or [Gradio](https://www.gradio.app/)  
-
+**Link to dataset:** https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset
 ---
 
 ## 🗒️ Project Timeline Overview
